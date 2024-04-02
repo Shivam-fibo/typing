@@ -15,15 +15,20 @@ let startTime;
 // Function to generate a random sentence
 function generateRandomSentence(wordCount) {
     const words = [
-        "Lorem", "ipsum", "dolor", "sit", "amet", "consectetur", "adipiscing", "elit",
-        "sed", "do", "eiusmod", "tempor", "incididunt", "ut", "labore", "et", "dolore",
-        "magna", "aliqua", "Ut", "enim", "ad", "minim", "veniam", "quis", "nostrud",
-        "exercitation", "ullamco", "laboris", "nisi", "ut", "aliquip", "ex", "ea", "commodo",
-        "consequat", "Duis", "aute", "irure", "dolor", "in", "reprehenderit", "in", "voluptate",
-        "velit", "esse", "cillum", "dolore", "eu", "fugiat", "nulla", "pariatur", "Excepteur",
-        "sint", "occaecat", "cupidatat", "non", "proident", "sunt", "in", "culpa", "qui",
-        "officia", "deserunt", "mollit", "anim", "id", "est", "laborum"
-    ];
+    "apple", "banana", "orange", "grape", "lemon", "kiwi", "pear", "melon",
+    "carrot", "potato", "tomato", "cucumber", "onion", "pepper", "broccoli", "lettuce",
+    "bread", "butter", "cheese", "milk", "egg", "yogurt", "rice", "pasta",
+    "chicken", "beef", "fish", "shrimp", "sausage", "bacon", "ham", "steak",
+    "coffee", "tea", "juice", "water", "soda", "milkshake", "smoothie", "lemonade",
+    "cake", "cookie", "pie", "icecream", "chocolate", "candy", "popcorn", "chips",
+    "dog", "cat", "bird", "fish", "rabbit", "hamster", "turtle", "snake",
+    "car", "bus", "train", "bike", "boat", "plane", "truck", "motorcycle",
+    "house", "apartment", "bedroom", "kitchen", "bathroom", "livingroom", "diningroom", "garage",
+    "school", "hospital", "office", "library", "park", "store", "restaurant", "bank",
+    "book", "pen", "pencil", "paper", "notebook", "computer", "phone", "tablet",
+    "sun", "moon", "star", "cloud", "rain", "snow", "wind", "storm"
+];
+
 
     let sentence = '';
 
